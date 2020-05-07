@@ -95,9 +95,10 @@ public class TestRegression extends base{
 		
 		chk.proceedCheckout().click();
 		
+		/*---------------If the user is not signed up before then login during checkout---------------
 		lr.signInEmail().sendKeys("akshay2@yopmail.com");
 		lr.signInPass().sendKeys("password");
-		lr.SubmitLogin().click();
+		lr.SubmitLogin().click();*/
 		
 		chk.proceedAddress().click();
 		chk.TermsCond().click();
